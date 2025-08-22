@@ -1,2 +1,4 @@
 # LabDesenvolvimentoDeSoftware2025-2
-Repositório usado na disciplina Laboratório de Desenvolvimento de Software
+Nome: Pedro Rolin Schmtiz
+Sistema: StudyFlowSync- Gerenciamento de estudos
+Objetivo do sistema: Aplicativo Mobile para organização de estudos, com fluxos, categorias, e alertas e de prazo com integração ao moodle.

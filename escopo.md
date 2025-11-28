@@ -13,7 +13,7 @@ Data: Pendente
 
 **2. Introdução e Visão Geral**
 
-Este projeto busca resolver a dificuldade que estudantes universitários enfrentam para organizar suas rotinas acadêmicas. A solução proposta é uma Aplicação Web Progressiva (PWA) que centraliza o gerenciamento de tarefas, calendário, acompanhamento de progresso e integração com a plataforma Moodle, resolvendo a dispersão de informações e a falta de controle sobre o aprendizado.
+Este projeto busca resolver a dificuldade que estudantes universitários enfrentam para organizar suas rotinas acadêmicas. A solução proposta é uma Aplicação Web que centraliza o gerenciamento de tarefas, calendário, acompanhamento de progresso e integração com a plataforma Moodle, resolvendo a dispersão de informações e a falta de controle sobre o aprendizado.
 
 **3. Objetivos do Projeto**
 
@@ -23,13 +23,13 @@ Implementar funcionalidades essenciais como gerenciamento de tarefas, calendári
 
 Integrar a aplicação com o Moodle para sincronizar disciplinas e atividades de forma automática.
 
-Garantir que a aplicação seja instalável e responsiva em diversos dispositivos (desktop e mobile).
+Garantir que a aplicação seja instalável e responsiva em diversos dispositivos.
 
 **4. Escopo do Projeto**
 
 **Entregáveis:**
 
-Aplicativo web progressivo (PWA) com módulos de organização de tarefas, calendário e progresso de estudos.
+Aplicativo web com módulos de organização de tarefas, calendário e progresso de estudos.
 
 Documentação técnica completa do sistema.
 
@@ -69,7 +69,7 @@ Orientador (A definir)
 
 **Tecnologia:**
 
-Frontend: HTML, CSS, JavaScript (PWA com Service Workers e Web App Manifest).
+Frontend: HTML, CSS, JavaScript, Bootstrap.
 
 Backend: PHP, MySQL.
 

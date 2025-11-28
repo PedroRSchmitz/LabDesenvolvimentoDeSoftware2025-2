@@ -1,79 +1,132 @@
-1. Identificação do Projeto 
-Nome do Projeto: Desenvolvimento de um Sistema de Gestão Financeira para Pequenas Empresas.
-Autor: Pedro Rolin Schmitz
-Orientador: Indefinido
-Data: Não aprovado
+1. Identificação do Projeto
 
-2. Introdução e Visão Geral 
-Este projeto visa desenvolver um aplicativo mobile para ajudar estudantes a organizarem seus estudos de forma prática. 
-A solução centraliza tarefas, calendário, progresso acadêmico e integração com o Moodle, resolvendo a dificuldade de manter o 
-controle do aprendizado em ferramentas separadas.
+Nome do Projeto: Desenvolvimento de um Aplicativo de Organização Acadêmica Integrado ao Moodle
+Autor: Pedro Rolin Schmitz
+Orientador: (a definir)
+Status: Em elaboração
+
+2. Introdução e Visão Geral
+
+Este projeto tem como objetivo desenvolver um sistema para auxiliar estudantes no gerenciamento de suas atividades acadêmicas. O sistema centraliza tarefas, eventos, prazos, progresso de estudos e informações importadas do Moodle, reduzindo a necessidade de consultar diversas plataformas e facilitando a organização da rotina. A proposta busca aumentar a autonomia do estudante e melhorar o acompanhamento do seu desempenho acadêmico.
 
 3. Objetivos do Projeto
-Criar um app intuitivo para organização de estudos.
-Implementar tarefas, calendário e progresso de aprendizado.
-Integrar com o Moodle para sincronização de atividades.
-Garantir usabilidade e compatibilidade com dispositivos móveis.
+
+Objetivo Geral:
+Criar um sistema intuitivo que permita ao estudante organizar suas atividades acadêmicas e acompanhar seu progresso, incluindo sincronização com o Moodle.
+
+Objetivos Específicos:
+
+Implementar cadastro, edição e controle de tarefas e eventos.
+
+Exibir calendário unificado com prazos e eventos.
+
+Gerenciar progresso do estudante por disciplina ou tarefa.
+
+Integrar ao Moodle para sincronizar atividades, notas e disciplinas.
+
+Garantir boa usabilidade e desempenho adequado no ambiente web/local de testes.
 
 4. Escopo do Projeto
+
 Entregáveis:
-Aplicativo mobile com módulos de organização de tarefas, calendário, progresso de estudos e integração básica ao Moodle.
-Documentação técnica completa do sistema.
-Relatórios de testes e validação com usuários.
 
-Requisitos:
-Funcionais: 
-Cadastro e gerenciamento de tarefas e eventos acadêmicos.
-Integração com o Moodle para sincronização de disciplinas e atividades.
-Acompanhamento de progresso individual.
+Sistema com os módulos:
 
-Não Funcionais: 
-Interface amigável e responsiva.
-Desempenho estável em dispositivos Android.
-Segurança básica na manipulação de dados pessoais.
- 
+Gerenciamento de tarefas e eventos
+
+Calendário
+
+Progresso acadêmico
+
+Integração básica ao Moodle (atividades, disciplinas, prazos)
+
+Documentação técnica (UML, requisitos, testes, arquitetura).
+
+Relatórios de testes com usuários.
+
+Requisitos Funcionais:
+
+RF01 – Permitir cadastrar, editar e remover tarefas acadêmicas.
+
+RF02 – Exibir calendário integrado com prazos e eventos.
+
+RF03 – Sincronizar atividades e disciplinas do Moodle.
+
+RF04 – Exibir progresso acadêmico (concluído/pendente).
+
+Requisitos Não Funcionais:
+
+RNF01 – Interface intuitiva e responsiva em navegador/ambiente de teste.
+
+RNF02 – Desempenho estável nas condições de teste previstas.
+
+RNF03 – Segurança no armazenamento de dados locais.
+
+RNF04 – Compatibilidade com navegadores modernos.
+
 Exclusões:
-Integração com outras plataformas além do Moodle (como Google Classroom, Microsoft Teams).
-Suporte técnico contínuo após entrega do projeto.
- 
+
+Integração com plataformas educacionais além do Moodle.
+
+Suporte técnico contínuo após a entrega do projeto.
+
+Qualquer funcionalidade explicitamente relacionada a aplicações móveis nativas (não será desenvolvida neste escopo).
+
 5. Recursos Necessários
-Pessoas: Desenvolvedor e pesquisador (Pedro Rolin Schmitz), orientador (indefinido). 
- 
-Tecnologia: 
-Ambiente de desenvolvimento (VSCode).
-Capacitor ou Cordova para empacotamento como app nativo.
-Acesso ao Moodle para testes de integração.
-Plataforma de hospedagem para testes (Firebase, Vercel, etc.).
-Ferramentas de controle de versão (Git, GitHub).
 
+Pessoas:
 
-6. Cronograma 
-Fase 1: Pesquisa e Planejamento: (2 meses)
-Fase 2: Desenvolvimento dos Módulos Principais: (2 meses)
-Fase 3: Testes e Documentação: (durante a fase 1 e fase 2)
-Fase 4: Entrega e Apresentação do TCC: (1 semana)
+Desenvolvedor e pesquisador: Pedro Rolin Schmitz
 
-7. Premissas 
-Disponibilidade do suporte do orientador.
-Acesso a ferramentas de desenvolvimento e aprendizado.
-Acesso a API ou ambiente de testes do Moodle
+Orientador: a definir
 
-8. Restrições 
-Prazo final para a conclusão do TCC.
-Orçamento limitado para aquisição de ferramentas ou licenças.
-Dependência da disponibilidade do Moodle para integração e testes.
+Tecnologias:
 
-9. Riscos e Planos de Contingência 
-Risco: Dificuldades técnicas na integração com o Moodle.
-Mitigação: Pesquisar previamente a documentação da API do Moodle; considerar uso de dados simulados caso necessário.
-Risco: Atrasos no cronograma de desenvolvimento.
-Mitigação: Priorizar as tarefas essenciais e, se necessário, reduzir o escopo de funcionalidades menos críticas.
-Risco: Limitação na performance em dispositivos móveis.
-Mitigação: Testes contínuos em diferentes aparelhos durante o desenvolvimento.
+Ambiente de desenvolvimento (VSCode ou similar)
 
-10. Critérios de Aceitação  
-O software atende a todos os requisitos funcionais definidos.
-O aplicativo deve permitir o gerenciamento de tarefas, calendário e progresso de estudo.
-A integração com o Moodle deve funcionar de forma básica e estável.
-O sistema deve ser funcional em dispositivos móveis Android.
-A interface deve ser intuitiva e validada com usuários finais.
+Frameworks/linguagens para backend e frontend escolhidos conforme necessidade (ex.: PHP/MySQL, Node.js, React, etc.)
+
+Acesso à API ou ambiente de testes do Moodle
+
+Plataforma de hospedagem ou ambiente para testes (Firebase, Vercel, servidor local, etc.)
+
+Git e GitHub para versionamento
+
+6. Cronograma
+Fase	Descrição	Duração
+Fase 1: Pesquisa e Planejamento	Levantamento de requisitos, estudos de integração Moodle	2 meses
+Fase 2: Desenvolvimento	Implementação dos módulos principais	2 meses
+Fase 3: Testes e Documentação	Testes unitários, de usabilidade e documentação	Paralelo às fases 1 e 2
+Fase 4: Apresentação	Preparação e entrega do TCC	1 semana
+7. Premissas
+
+O orientador estará disponível para validações periódicas.
+
+A API e documentação do Moodle estarão acessíveis.
+
+O autor terá acesso às ferramentas de desenvolvimento.
+
+8. Restrições
+
+Prazo final definido pelo cronograma do TCC.
+
+Orçamento limitado, priorizando ferramentas gratuitas.
+
+Dependência da estabilidade dos serviços do Moodle para testes.
+
+9. Riscos e Planos de Contingência
+Risco	Impacto	Mitigação
+Falhas na integração com o Moodle	Alto	Estudar antecipadamente a API; usar dados simulados ou ambiente sandbox se necessário
+Atrasos no desenvolvimento	Médio	Priorizar funcionalidades essenciais; reduzir escopo não crítico se preciso
+Problemas de desempenho no ambiente de testes	Médio	Otimizar código; realizar testes incrementais durante o desenvolvimento
+10. Critérios de Aceitação
+
+O sistema permite o gerenciamento de tarefas, eventos e acompanhamento de progresso.
+
+A integração com o Moodle funciona de forma básica e estável nos testes.
+
+O sistema roda corretamente no ambiente de testes previsto (navegador/servidor de desenvolvimento).
+
+A interface é considerada intuitiva por usuários de teste.
+
+Todos os requisitos funcionais essenciais são atendidos.
